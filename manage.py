@@ -23,7 +23,7 @@ if not os.path.exists(p2p_client_path):
     print('p2pclient is installed.')
 
 print(out.decode('utf-8'))
-print(err.decode('utf-8')
+print(err.decode('utf-8'))
 
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "gettingstarted.settings")
