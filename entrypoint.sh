@@ -6,4 +6,4 @@ python3 manage.py
 if [ -z "$PORT" ]; then
     PORT=5000
 fi
-gunicorn --bind 0.0.0.0:${PORT} wsgi 
+gunicorn --bind 127.0.0.1:${PORT} wsgi 
